@@ -7,8 +7,6 @@ import time
 
 
 """
-我们注意到对于MD-Patchy Mocks, 公用一套randoms catalog, 这意味着
-我们可以共用一套Y_lm(r)
 We notice that for MD-Patchy Mocks, there is a common set of randoms catalog, which means 
 We can share a set of Y_lm(r)
 """
@@ -23,7 +21,7 @@ BoxSize = numpy.array([6900,6900,6900]).astype("float64")
 poles = [2,4] ## 2,4,6,8...
 
 
-# 创建存储文件夹 Create storage folder
+# Create storage folder
 store_path = os.path.join(os.getcwd(),"Ylm_arrays")
 
 if os.path.exists(store_path):
